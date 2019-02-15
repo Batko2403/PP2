@@ -48,42 +48,25 @@ namespace task2
                     {
                         y++;
                     }
-
                 }
-
                 if (y == 0)
-
                 {
-
                     res.Add(x);
-
                 }
-
             }
-
             return res.ToArray();
 
         }
         private static int[] Numbers(string text)
 
         {
-
-            string[] parts = text.Split();
-
+           string[] parts = text.Split();
             int[] res = new int[parts.Length];
-
             for (int i = 0; i < parts.Length; ++i)
-
             {
-
                 res[i] = int.Parse(parts[i]);
-
             }
-
             return res;
-
         }
-
     }
-
 }
