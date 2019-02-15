@@ -15,7 +15,7 @@ namespace Task_1_1_
             bool Pol = true;
             //считываю данные из файла
 
-            using (FileStream fs = new FileStream(@"C:\Week2\Input.txt", FileMode.Open, FileAccess.Read))
+            using (FileStream fs = new FileStream(@"C:\Users\Батыр\git\PP2\week2\task1.1\text1.txt", FileMode.Open, FileAccess.Read))
 
             {
 
